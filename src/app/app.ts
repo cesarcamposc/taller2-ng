@@ -1,4 +1,5 @@
 import { Component, signal } from '@angular/core';
+
 import { RouterOutlet } from '@angular/router';
 
 @Component({
@@ -8,5 +9,5 @@ import { RouterOutlet } from '@angular/router';
   styleUrl: './app.css'
 })
 export class App {
-  protected readonly title = signal('taller2-ng');
+  protected readonly title = signal('hola, estamos en angular!');
 }
